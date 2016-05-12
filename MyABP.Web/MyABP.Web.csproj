@@ -1139,6 +1139,8 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Scripts\sweetalert\sweet-alert.scss" />
     <Content Include="Scripts\version.json" />
+    <Content Include="Views\Home\Test.cshtml" />
+    <Content Include="Views\Home\T.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

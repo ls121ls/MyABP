@@ -21,3 +21,4 @@ C:\Users\wer\Desktop\MyABP\MyABP.Core\bin\Debug\Nito.AsyncEx.Enlightenment.xml
 C:\Users\wer\Desktop\MyABP\MyABP.Core\bin\Debug\System.Collections.Immutable.xml
 C:\Users\wer\Desktop\MyABP\MyABP.Core\obj\Debug\MyABP.Core.dll
 C:\Users\wer\Desktop\MyABP\MyABP.Core\obj\Debug\MyABP.Core.pdb
+C:\Users\wer\Desktop\MyABP\MyABP.Core\obj\Debug\MyABP.Core.csprojResolveAssemblyReference.cache

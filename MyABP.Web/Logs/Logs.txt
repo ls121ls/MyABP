@@ -1,0 +1,126 @@
+DEBUG 2016-05-11 13:58:15,199 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-05-11 13:58:16,177 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-05-11 13:58:16,181 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 13:58:16,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 13:58:16,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 13:58:16,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 13:58:16,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 13:58:16,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 13:58:16,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.MyABPApplicationModule, MyABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 13:58:16,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.MyABPCoreModule, MyABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 13:58:16,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.MyABPDataModule, MyABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 13:58:16,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.Web.MyABPWebModule, MyABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 13:58:16,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.MyABPWebApiModule, MyABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 13:58:16,188 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-05-11 13:58:16,949 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-05-11 13:58:16,953 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-05-11 13:58:16,970 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-05-11 13:58:17,008 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyABP
+DEBUG 2016-05-11 13:58:17,410 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-05-11 13:58:17,556 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+WARN  2016-05-11 13:58:22,047 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-05-11 13:58:22,062 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+ERROR 2016-05-11 14:00:22,653 [14   ] MyABP.Web.Controllers.HomeController     - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MyABP.Web.Controllers.HomeController.T(FormCollection Collection) 位置 C:\Users\wer\Desktop\MyABP\MyABP.Web\Controllers\HomeController.cs:行号 26
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.ActionInvocation.InvokeSynchronousActionMethod()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2016-05-11 14:02:05,262 [23   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-05-11 14:02:05,263 [23   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-05-11 14:02:11,907 [8    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-05-11 14:02:12,862 [8    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-05-11 14:02:12,865 [8    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:02:12,866 [8    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:02:12,867 [8    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:02:12,867 [8    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:02:12,867 [8    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:02:12,867 [8    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:02:12,867 [8    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.MyABPApplicationModule, MyABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:02:12,867 [8    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.MyABPCoreModule, MyABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:02:12,867 [8    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.MyABPDataModule, MyABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:02:12,867 [8    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.Web.MyABPWebModule, MyABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:02:12,867 [8    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.MyABPWebApiModule, MyABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:02:12,871 [8    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-05-11 14:02:13,203 [8    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-05-11 14:02:13,207 [8    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-05-11 14:02:13,207 [8    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-05-11 14:02:13,208 [8    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyABP
+DEBUG 2016-05-11 14:02:13,353 [8    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-05-11 14:02:13,436 [8    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+WARN  2016-05-11 14:02:35,829 [19   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-05-11 14:02:35,844 [19   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-05-11 14:02:42,545 [19   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-05-11 14:02:42,545 [19   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-05-11 14:02:53,198 [8    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-05-11 14:02:53,588 [8    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-05-11 14:02:53,590 [8    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:02:53,591 [8    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:02:53,592 [8    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:02:53,592 [8    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:02:53,592 [8    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:02:53,592 [8    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:02:53,592 [8    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.MyABPApplicationModule, MyABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:02:53,592 [8    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.MyABPCoreModule, MyABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:02:53,592 [8    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.MyABPDataModule, MyABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:02:53,592 [8    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.Web.MyABPWebModule, MyABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:02:53,592 [8    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.MyABPWebApiModule, MyABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:02:53,595 [8    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-05-11 14:02:53,797 [8    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-05-11 14:02:53,801 [8    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-05-11 14:02:53,801 [8    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-05-11 14:02:53,802 [8    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyABP
+DEBUG 2016-05-11 14:02:53,908 [8    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-05-11 14:02:53,982 [8    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+ERROR 2016-05-11 14:02:54,164 [23   ] MyABP.Web.Controllers.HomeController     - The view '/Home/Test' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+/Home/Test
+System.InvalidOperationException: The view '/Home/Test' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+/Home/Test
+   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2016-05-11 14:02:55,267 [13   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-05-11 14:02:55,282 [13   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-05-11 14:05:49,457 [9    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-05-11 14:05:49,458 [9    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-05-11 14:06:18,552 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-05-11 14:06:19,090 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-05-11 14:06:19,092 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:06:19,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:06:19,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:06:19,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:06:19,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:06:19,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:06:19,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.MyABPApplicationModule, MyABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:06:19,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.MyABPCoreModule, MyABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:06:19,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.MyABPDataModule, MyABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:06:19,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.Web.MyABPWebModule, MyABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:06:19,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.MyABPWebApiModule, MyABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-05-11 14:06:19,097 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-05-11 14:06:19,355 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-05-11 14:06:19,358 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-05-11 14:06:19,359 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-05-11 14:06:19,360 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyABP
+DEBUG 2016-05-11 14:06:19,468 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-05-11 14:06:19,542 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes

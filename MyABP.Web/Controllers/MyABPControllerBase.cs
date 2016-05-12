@@ -1,4 +1,5 @@
 ﻿using Abp.Web.Mvc.Controllers;
+using MyABP.EntityFramework;
 
 namespace MyABP.Web.Controllers
 {
