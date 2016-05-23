@@ -87,6 +87,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dto\IUsersService.cs" />
+    <Compile Include="Dto\UsersDto.cs" />
+    <Compile Include="Dto\UsersService.cs" />
     <Compile Include="MyABPApplicationModule.cs" />
     <Compile Include="MyABPAppServiceBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

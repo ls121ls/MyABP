@@ -10,5 +10,6 @@ namespace MyABP.IRepositories
 {
     public interface IUsersRepository : IRepository<USERS>
     {
+        List<USERS> GetAdminUsers();
     }
 }

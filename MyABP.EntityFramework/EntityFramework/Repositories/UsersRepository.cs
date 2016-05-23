@@ -19,7 +19,8 @@ namespace MyABP.EntityFramework.Repositories
 
         public List<USERS> GetAdminUsers()
         {
-            return Table.Where(d => d.USER_ID == "ls").ToList();
-        } 
+            
+            return Context.Users.Where(d => d.USER_ID == "ls").ToList();
+        }
     }
 }

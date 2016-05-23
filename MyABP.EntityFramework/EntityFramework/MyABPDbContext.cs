@@ -1,4 +1,9 @@
-﻿using Abp.EntityFramework;
+﻿using System;
+using System.Data.Entity;
+using System.Linq;
+using System.Security.Policy;
+using Abp.EntityFramework;
+using MyABP.Entities;
 
 namespace MyABP.EntityFramework
 {
@@ -9,6 +14,7 @@ namespace MyABP.EntityFramework
         //Example:
         //public virtual IDbSet<User> Users { get; set; }
 
+            public virtual IDbSet<USERS> Users { get; set; } 
         /* NOTE: 
          *   Setting "Default" to base class helps us when working migration commands on Package Manager Console.
          *   But it may cause problems when working Migrate.exe of EF. If you will apply migrations on command line, do not
@@ -29,5 +35,6 @@ namespace MyABP.EntityFramework
         {
 
         }
+
     }
 }

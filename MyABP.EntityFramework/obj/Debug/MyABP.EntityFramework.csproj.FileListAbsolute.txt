@@ -31,3 +31,5 @@ C:\Users\wer\Desktop\MyABP\MyABP.EntityFramework\bin\Debug\System.Collections.Im
 C:\Users\wer\Desktop\MyABP\MyABP.EntityFramework\obj\Debug\MyABP.EntityFramework.csprojResolveAssemblyReference.cache
 C:\Users\wer\Desktop\MyABP\MyABP.EntityFramework\obj\Debug\MyABP.EntityFramework.dll
 C:\Users\wer\Desktop\MyABP\MyABP.EntityFramework\obj\Debug\MyABP.EntityFramework.pdb
+C:\Users\wer\Desktop\MyABP\MyABP.EntityFramework\obj\Debug\MyABP.Migrations.initialdata.resources
+C:\Users\wer\Desktop\MyABP\MyABP.EntityFramework\obj\Debug\MyABP.EntityFramework.csproj.GenerateResource.Cache

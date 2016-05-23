@@ -1141,6 +1141,7 @@
     <Content Include="Scripts\version.json" />
     <Content Include="Views\Home\Test.cshtml" />
     <Content Include="Views\Home\T.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
